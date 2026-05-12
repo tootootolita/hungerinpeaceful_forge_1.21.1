@@ -39,7 +39,7 @@ public class PeacefulHungerMod {
             float saturation = foodData.getSaturationLevel();
             if (saturation > 0.0F) {
                 foodData.setSaturation(Math.max(0.0F, saturation - 1.0F));
-            } else if (foodData.getFoodLevel() > 0) {
+            } else if (foodData.getFoodLevel() > 1) {
                 foodData.setFoodLevel(foodData.getFoodLevel() - 1);
             }
         }
