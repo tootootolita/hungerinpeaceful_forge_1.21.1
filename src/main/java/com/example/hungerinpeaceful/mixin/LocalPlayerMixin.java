@@ -1,4 +1,4 @@
-package com.example.peacefulhunger.mixin;
+package com.example.hungerinpeaceful.mixin;
 
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.world.Difficulty;

@@ -1,4 +1,4 @@
-package com.example.peacefulhunger;
+package com.example.hungerinpeaceful;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.server.level.ServerPlayer;
@@ -11,13 +11,13 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
-@Mod(PeacefulHungerMod.MODID)
-public class PeacefulHungerMod {
+@Mod(HungerInPeacefulMod.MODID)
+public class HungerInPeacefulMod {
 
-    public static final String MODID = "peacefulhunger";
+    public static final String MODID = "hungerinpeaceful";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public PeacefulHungerMod(FMLJavaModLoadingContext context) {
+    public HungerInPeacefulMod(FMLJavaModLoadingContext context) {
         MinecraftForge.EVENT_BUS.register(this);
     }
 

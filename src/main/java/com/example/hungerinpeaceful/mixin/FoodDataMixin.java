@@ -1,6 +1,5 @@
-package com.example.peacefulhunger.mixin;
+package com.example.hungerinpeaceful.mixin;
 
-//import com.example.peacefulhunger.PeacefulHungerMod;
 import net.minecraft.world.Difficulty;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.food.FoodData;
